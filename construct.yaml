@@ -1,0 +1,11 @@
+# Example construct.yaml to bundle a conda environment.yml file into a
+# standalone installer
+
+name: Yolo
+version: 0.1.0
+
+channels:
+    - defaults
+    - conda-forge
+
+environment_file: ./my/environment.yml
